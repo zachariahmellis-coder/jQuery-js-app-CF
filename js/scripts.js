@@ -32,8 +32,6 @@ function newItem() {
 
 //5. Bids events and makes
 $(function () {
-  $("button").on("click", newItem);
-
   //6. Reorders the list items
   $("#list").sortable();
 });
